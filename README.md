@@ -1,7 +1,7 @@
 # Project Title
 Under construction template 
 
-![alt text](http://url/to/img.png)
+![Demo Image](/images/demo_image.png)
 
 ## Getting Started
 
