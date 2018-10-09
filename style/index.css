@@ -4,7 +4,7 @@
 }
 body{ 
     padding: 0; 
-    background: #c09069
+    background: #e83962
 }
 
 /*Menu style starts here*/
@@ -104,7 +104,7 @@ body{
 .header .social-icon{
     display: inline-block;
     font-size: 30px;
-    color: #c09069;
+    color: #e83962;
     text-decoration: none;
     margin-left: 8px;
     transition: all .5s linear 0s;
@@ -116,7 +116,7 @@ body{
 
 .header label{
     font-size: 30px;
-    color: #c09069;
+    color: #e83962;
     position: relative;
     top: -10px;
 }
@@ -138,10 +138,10 @@ body{
 /*Page header style ends here*/
 
 .col1{
-    background: #fff;
+    background: #fcffa3;
 }
 .col2{
-    background: #c09069;
+    background: #e83962;
 }
 
 .col-con{
@@ -165,29 +165,37 @@ body{
 
 .col-con .mainLabel{
     font-size: 50px;
-   color: #c09069;
+   color: #e83962;
    font-family: 'Crete Round', serif;
 } 
 
 .col-con p{
-    color: #c09069
+    color: #e83962
 }
 
 
 .col-con .emailMe{
 	text-decoration: none;
 	font-weight: bold;
-	color: #c09069
+	color: #e83962
 }
 
 .sub-con{
     width: 90%;
-       border-bottom: 1.5px solid #c09069;
+       border-bottom: 1.5px solid #e83962;
+}
+
+.sub-con input{
+	background: transparent;
+}
+
+.sub-con input::-webkit-input-placeholder{
+	color: #e83962;
 }
 
 .con1 h4{
     text-transform: uppercase;
-    color: #c09069;
+    color: #e83962;
     font-family: 'Baloo Bhaina', cursive;
 }
 
@@ -197,7 +205,7 @@ body{
     border: none;
     font-family: 'Baloo Bhaina', cursive;
     padding-left: 0px;
-    color: #c09069;
+    color: #e83962;
 }
 
 .email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -216,7 +224,7 @@ body{
 .Subscribe{
     background: transparent;
     border: none;
-    color: #c09069;
+    color: #e83962;
     font-family: 'Russo One', sans-serif;
     position: relative;
     left: 35px;
