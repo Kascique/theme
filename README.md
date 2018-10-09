@@ -1,6 +1,8 @@
 # Project Title
 Under construction template 
 
+![alt text](http://url/to/img.png)
+
 ## Getting Started
 
 To use this template download the file change the information on the index.html file and the “launchtime” in the index.js file.
