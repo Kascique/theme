@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'coming_soon';
+  src:  url('../fonts/coming_soon.eot?4sp65o');
+  src:  url('../fonts/coming_soon.eot?4sp65o#iefix') format('embedded-opentype'),
+    url('../fonts/coming_soon.ttf?4sp65o') format('truetype'),
+    url('../fonts/coming_soon.woff?4sp65o') format('woff'),
+    url('../fonts/coming_soon.svg?4sp65o#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'coming_soon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-arrow:before {
+  content: "\e900";
+}
+.icon-icon-close:before {
+  content: "\e901";
+}
+.icon-icon-dribbble:before {
+  content: "\e902";
+}
+.icon-icon-facebook:before {
+  content: "\e903";
+}
+.icon-icon-line:before {
+  content: "\e904";
+}
+.icon-icon-menu:before {
+  content: "\e905";
+}
+.icon-icon-twitter:before {
+  content: "\e906";
+}
+

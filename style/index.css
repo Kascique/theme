@@ -1,1 +1,292 @@
 
+*:hover, *:focus{ 
+    outline: none
+}
+body{ 
+    padding: 0; 
+    background: #c09069
+}
+
+/*Menu style starts here*/
+#menu{
+    width: 0px; 
+    max-width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 2000;
+    right: 0px;
+    background: #000;
+    overflow: hidden;
+    -webkit-transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+   -moz-transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+     -o-transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+        transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+
+   -webkit-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+   -moz-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+     -o-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+        transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+}
+
+#menu div{
+   text-align: center;
+}
+
+#menu a{
+   padding: 16px;
+   text-decoration: none;
+   display: block;
+   font-size: 20px;
+   color: #fff
+}
+
+#menu a span{
+    position: relative;
+    right: 0;
+    -webkit-transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+   -moz-transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+     -o-transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+        transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+
+   -webkit-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+   -moz-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+     -o-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+        transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+}
+
+#menuClose{
+    background: transparent;
+    padding: 10px;
+    border: none;
+}
+
+#menuClose span{
+    font-size: 20px;
+    color: #fff;
+}
+
+#menu a:hover span{
+    right: 10px;
+}
+
+/*Menu style ends here*/
+
+.col1, .col2{ height: 100vh}
+
+/*Page header style*/
+.header{
+    width: 100%; 
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    z-index: 1000;
+}
+
+.header .wrap{
+    width: 95%; 
+    height: 100%;
+    margin: 0px auto;
+    line-height: 90px;
+}
+
+.header .left{
+    text-align: left;
+}
+
+.header .middle{
+    text-align: center;
+}
+
+.header .right{
+    text-align: right;
+}
+
+.header .social-icon{
+    display: inline-block;
+    font-size: 30px;
+    color: #c09069;
+    text-decoration: none;
+    margin-left: 8px;
+    transition: all .5s linear 0s;
+}
+
+.header .social-icon:hover{
+    color: #e8d6c7;
+}
+
+.header label{
+    font-size: 30px;
+    color: #c09069;
+    position: relative;
+    top: -10px;
+}
+
+.header span{
+    color: #fff;
+}
+
+.header .menubtn{
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+    padding: 10px;
+    border: none;
+}
+
+/*Page header style ends here*/
+
+.col1{
+    background: #fff;
+}
+.col2{
+    background: #c09069;
+}
+
+.col-con{
+    width: 95%; 
+    height: 300px;
+}
+
+.con1{
+   position: relative;
+    top: 160px;
+}
+
+.con2{
+   position: relative;
+    top: 100px;
+}
+
+.col1 .col-con{
+    float: right;
+}
+
+.col-con .mainLabel{
+    font-size: 50px;
+   color: #c09069;
+   font-family: 'Crete Round', serif;
+} 
+
+.col-con p{
+    color: #c09069
+}
+
+
+.col-con .emailMe{
+	text-decoration: none;
+	font-weight: bold;
+	color: #c09069
+}
+
+.sub-con{
+    width: 90%;
+       border-bottom: 1.5px solid #c09069;
+}
+
+.con1 h4{
+    text-transform: uppercase;
+    color: #c09069;
+    font-family: 'Baloo Bhaina', cursive;
+}
+
+.email{
+    padding: 8px;
+    width: calc(100% - 150px);
+    border: none;
+    font-family: 'Baloo Bhaina', cursive;
+    padding-left: 0px;
+    color: #c09069;
+}
+
+.email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #e8d6c7;
+}
+.email::-moz-placeholder { /* Firefox 19+ */
+  color: #e8d6c7;
+}
+.email:-ms-input-placeholder { /* IE 10+ */
+  color: #e8d6c7;
+}
+.email:-moz-placeholder { /* Firefox 18- */
+  color: #e8d6c7;
+}
+
+.Subscribe{
+    background: transparent;
+    border: none;
+    color: #c09069;
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+    left: 35px;
+}
+
+.Subscribe span{
+    font-size: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: 0;
+    -webkit-transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+   -moz-transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+     -o-transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+        transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+
+   -webkit-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+   -moz-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+     -o-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+        transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+}
+
+.Subscribe:hover span{
+    left: 10px;
+}
+
+/*Style for col 2*/
+
+.col-con .date{
+    width: 90px;
+    height: 90px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.date .mainText{
+    font-size: 60px;
+    color: #fff;
+}
+
+.date .line-icon{
+    font-size: 30px; 
+    color: #d9bca5;
+    position: relative;
+    right: 0;
+   -webkit-transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+   -moz-transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+     -o-transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+        transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+
+   -webkit-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+   -moz-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+     -o-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+        transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530); 
+}
+
+.date:hover .line-icon{
+    right: 30px;
+}
+
+.date .secText{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #d9bca5;
+    display: inline-block;
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+    top: -8px;
+}
+
+.date div{
+    position: relative;
+    top: -20px;
+}
