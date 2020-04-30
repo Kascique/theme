@@ -8,7 +8,7 @@ $("#menuClose").click(function(){
 });
 
   //Change Launch time
-  var  lunchTime = "2019/12/10";
+  var  lunchTime = "2020/12/10";
   
   $("#days")
   .countdown(lunchTime, function(event) {
