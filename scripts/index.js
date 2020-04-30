@@ -1,36 +1,24 @@
 //open menu
-$("#menuBtn").click(function(){
-	$('#menu').css("width", "300px");
+$("#menuBtn").click(function () {
+  $("#menu").css("width", "300px");
 });
 //close menu
-$("#menuClose").click(function(){
-	$('#menu').css("width", "0px");
+$("#menuClose").click(function () {
+  $("#menu").css("width", "0px");
 });
 
-  //Change Launch time
-  var  lunchTime = "2020/12/10";
-  
-  $("#days")
-  .countdown(lunchTime, function(event) {
-    $(this).text(
-      event.strftime('%D')
-    );
-  });
-  $("#hours")
-  .countdown(lunchTime, function(event) {
-    $(this).text(
-      event.strftime('%H')
-    );
-  });
-  $("#minutes")
-  .countdown(lunchTime, function(event) {
-    $(this).text(
-      event.strftime('%M')
-    );
-  });
-  $("#seconds")
-  .countdown(lunchTime, function(event) {
-    $(this).text(
-      event.strftime('%S')
-    );
-  });
+//Change Launch time
+var launchTime = "2020/12/10";
+
+$("#days").countdown(launchTime, function (event) {
+  $(this).text(event.strftime("%D"));
+});
+$("#hours").countdown(launchTime, function (event) {
+  $(this).text(event.strftime("%H"));
+});
+$("#minutes").countdown(launchTime, function (event) {
+  $(this).text(event.strftime("%M"));
+});
+$("#seconds").countdown(launchTime, function (event) {
+  $(this).text(event.strftime("%S"));
+});
